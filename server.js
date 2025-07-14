@@ -22,7 +22,7 @@ await connectCloudinary()
 
 
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['http://localhost:5173', 'https://grocery-delivery-frontend-six.vercel.app']
 
 app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
 
