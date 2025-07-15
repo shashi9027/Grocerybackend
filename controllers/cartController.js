@@ -1,7 +1,5 @@
 import User from "../models/User.js"
 
-
-
 // api/cart/update
 
 export const updateCart = async (req,res) =>{
